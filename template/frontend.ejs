@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Example Frontend</title>
+	</head>
+	<body>
+		<form action="/text/create" method="POST">
+			<input type="text" name="content" placeholder="Enter text here">
+			<button type="submit">Submit</button>
+		</form>
+
+		<ul id="examples">
+			<% for(var i=0; i<examples.length; i++) {%>
+			<li><%= examples[i].content %></li>
+			<% } %>
+		</ul>
+
+	</body>
+</html>
