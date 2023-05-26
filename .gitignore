@@ -1,0 +1,4 @@
+static-home
+node_modules
+.env
+package-lock.json
